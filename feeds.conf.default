@@ -17,4 +17,4 @@ src-git kenzo https://github.com/kenzok8/openwrt-packages
 # passwall依赖
 src-git small https://github.com/kenzok8/small
 # luci-theme-argon
-src-git argon https://github.com/jerrykuku/luci-theme-argon.git
+src-git argon https://github.com/jerrykuku/luci-theme-argon
