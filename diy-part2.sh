@@ -14,7 +14,7 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 device_name='G-DOCK'
 wifi_name='G-DOCK'
-lan_ip='192.168.1.1'        # Lan Ip地址
+lan_ip='192.168.7.1'        # Lan Ip地址
 utc_name='Asia\/Shanghai'   # 时区
  
 #修改机器名称
@@ -23,7 +23,7 @@ sed -i "s/OpenWrt/$device_name/g" package/base-files/files/bin/config_generate
 
 # Modify default IP
 echo "设置lan ip"
-sed -i "s/192.168.1.1/$lan_ip/g" package/base-files/files/bin/config_generate
+sed -i "s/192.168.7.1/$lan_ip/g" package/base-files/files/bin/config_generate
 
 #修改默认时区
 echo "修改时区"
